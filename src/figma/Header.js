@@ -7,7 +7,6 @@ import card1 from './Group 48.png'
 import card2 from './Group 49.png'
 import card3 from './Group 50.png'
 import card4 from './Group 51.png'
-import img1 from './image1.png'
 import img2 from './image2.jpg'
 import img3 from './image3.png'
 import img4 from './Image.png'
@@ -88,7 +87,7 @@ const Header = () => {
                                
                             </div></div>
 
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6'> 
                             <img src={l1} alt="logo" width="30%"></img>
                             <img src={landlf1} alt="logo" width="100%"></img>
                             <div className='plane'>
