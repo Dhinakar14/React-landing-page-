@@ -2,6 +2,7 @@ h1 {
   text-align: justify;
 }
 
+
 .bar {
   padding: 1% 1% 1% 22%;
   background: none;
@@ -22,7 +23,8 @@ li {
 .nav {
   background: none;
   border: none;
-  position: absolute;
+     position: fixed;
+     z-index: 2;
 }
 
 .land1 {
@@ -164,7 +166,7 @@ input[type=text] {
 
 .back img {
   position: absolute;
-  top: 170%;
+  top: 115%;
   left: 32%;
   opacity: 90%;
   z-index: -1;
